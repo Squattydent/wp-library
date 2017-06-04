@@ -1,0 +1,64 @@
+/*
+Theme Name: Library Login Stylesheet
+Theme URI: https://github.com/squattydent/ROC-themes
+Author: Squattydent
+Author URI: https://www.24th.biz
+Description: library ini digunakan untuk mengganti tampilan halaman login wordpress
+Version: 1.0.1
+License: MIT
+License URI: https://raw.githubusercontent.com/squattydent/ROC-themes/master/LICENSE
+*/
+
+
+body{
+	background-image: url(../images/balai-kota.jpg)!important;
+	background-repeat: no-repeat!important;
+	background-size: cover!important;
+	background-attachment: fixed!important;
+	background-position: center!important;
+}
+#login {
+	background-color: rgba(0, 0, 0, 0.5)!important;
+	padding: 50px 30px!important;
+	height: 100%!important;
+}	
+.login h1 a{
+	background-image: url(../images/logo.png?ver=20131202)!important;
+	background-image: none,url(../images/logo.png?ver=20131107)!important;
+	outline: none!important;
+	height: 90px!important;
+}
+.login form{
+	border-left: 4px solid #dc3232!important;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1)!important;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1)!important;
+	background: rgba(255, 255, 255, 0.9)!important;
+}
+p#nav > a,
+p#backtoblog > a{
+	color: #ffffff!important;
+	outline: none!important;
+	height: 30px!important;
+	line-height: 28px!important;
+	padding: 5px 0!important;
+	background-color: #0085ba!important;
+	text-decoration: none!important;
+	text-shadow: 0 -1px 1px #006799,1px 0 1px #006799,0 1px 1px #006799,-1px 0 1px #006799!important;
+	border-radius: 4px!important;
+	text-align: center!important;
+	display: block!important;
+}
+@media (min-width: 768px){
+	body{
+		overflow: hidden!important;
+	}
+	#login{
+		margin: 0px!important;
+	}
+}
+@media (max-width: 320px){
+	#login{
+		width:260px!important;
+		margin: auto!important;
+	}
+}
